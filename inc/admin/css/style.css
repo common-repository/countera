@@ -1,0 +1,135 @@
+body{
+    background:#f0f0f1;
+}
+
+.toast-top-right{
+    margin-top: 30px
+}
+
+.toast-top-center{
+    margin-top: 45px
+}
+
+.wrap span.fl_right{
+    float:right;
+}
+
+.wrap button.btn {
+    background: #f6f7f7;
+    border: 1px solid #2271b1;
+    color: #2271b1;
+    font-size: 13px;
+    font-weight: 600;
+}
+.wrap button.btn:hover {
+    background: #f0f0f1;
+    border-color: #0a4b78;
+    color: #0a4b78;
+}
+
+.wrap button.btn:focus{
+    box-shadow:0 0 0 1px #2271b1;
+}
+#filter a.btn-primary{
+    background:#2271b1;
+}
+ul.pagination .page-item.active .page-link{
+    color:#fff;
+    background-color:#2271b1;
+}
+
+ul.pagination .page-item .page-link{
+    color:#2271b1;
+    font-size:13px;
+}
+
+.form-group input.form-control{
+    min-height: 30px;
+    font-size:13px;
+    border:1px solid #8c8f94;
+    height:inherit;
+}
+.min_hr{
+    margin-top:5px;
+    margin-bottom:5px;
+    width: 100%;
+    display: inline-block;
+}
+.bottom #countera_table_paginate {
+    float: right;
+    width: 50%;
+}
+.bottom #countera_table_info {
+    float: left;
+}
+.tweet_widget{
+    color:#fff !important;
+    background: #2271b1 !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #2271b1;
+}
+.postbox .inside h2, .wrap [class$="icon32"] + h2, .wrap h1, .wrap > h2:first-child {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 4px 0 4px 0;
+    line-height: 1.3;
+}
+.wp-core-ui select{
+    font-size:12px;
+    line-height:28px;
+}
+.form-row .form-group label{
+    font-size:14px;
+}
+table{
+    color:#1d2327 !important;
+    background:#fff;
+}
+table tr th{
+    font-size:14px;
+    font-weight:600;
+}
+.alignright{
+    margin-bottom:5px;
+}
+table.dataTable > thead .sorting::before, table.dataTable > thead .sorting::after, table.dataTable > thead .sorting_asc::before, table.dataTable > thead .sorting_asc::after, table.dataTable > thead .sorting_desc::before, table.dataTable > thead .sorting_desc::after, table.dataTable > thead .sorting_asc_disabled::before, table.dataTable > thead .sorting_asc_disabled::after, table.dataTable > thead .sorting_desc_disabled::before, table.dataTable > thead .sorting_desc_disabled::after {
+    bottom: 0.4em;
+}
+.table th, .table td {
+    padding:5px 0.75rem;
+}
+table.dataTable {
+    border-collapse: collapse !important;
+    border-spacing: 0;
+}
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 1px;
+}
+#countera_table td.dataTables_empty{
+    font-size:13px;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: .35em;
+}
+
+.wrap button.btn{
+    padding: 0.275rem 0.75rem;
+}
+
+.btn-group button.buttons-colvis {
+    margin-right: 5px;
+    border-top-right-radius:0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.btn-group button.buttons-csv {
+    margin-right: 5px;
+    border-top-left-radius:0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+#countera_table_length label {
+    float: right;
+    margin-right: 10px;
+}
